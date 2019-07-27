@@ -1,7 +1,7 @@
 # Kidnapped Vehicle Project
 
 In this project, I implemented a 2 dimensional particle filter in C++. The particle filter will be given a map and some initial localization information (analogous to what a GPS would provide). At each time step the filter will also get observation and control data.
-
+___
 ## Project Introduction
 The robot has been kidnapped and transported to a new location! Luckily it has a map of this location, a (noisy) GPS estimate of its initial location, and lots of (noisy) sensor and control data.
 ___
@@ -72,16 +72,16 @@ OUTPUT: values provided by the c++ program to the simulator
 ["best_particle_sense_x"] <= list of sensed x positions
 
 ["best_particle_sense_y"] <= list of sensed y positions
-
-
+___
 On success, the simulator output says:
 
 ```
 Success! Your particle filter passed!
 ```
 ![](Success!.png)
+___
 
-# Implementing the Particle Filter
+## Implementing the Particle Filter
 The directory structure of this repository is as follows:
 
 ```
@@ -136,6 +136,12 @@ The following links will help improve your knowledge in c++:
 - [Advanced C++ Techniques Explained.](http://cplusplus.bordoon.com/cplusplusadvice.html)
 - [Wiki books-Optimizing C++](https://en.wikibooks.org/wiki/Optimizing_C%2B%2B)
 - [Stackoverflow thread-General C++ Performance Improvement Tips](https://stackoverflow.com/questions/2030189/general-c-performance-improvement-tips)
+___
 
+## Troubleshooting
 
+If the error is missing `zlib` while installing uWebSocketIO, run the following command to install zlib...
+```
+sudo apt-get install zlib1g-dev
+```
 
